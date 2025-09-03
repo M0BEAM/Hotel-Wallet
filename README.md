@@ -8,7 +8,7 @@ It helps hotels organize, track, and manage additional services offered to guest
 ## 📸 Preview
 
 ![Hotel-Wallet Screenshot](./assets/preview.png)  
-*(Replace `./assets/preview.png` with your own image path or URL)*
+
 
 ---
 
