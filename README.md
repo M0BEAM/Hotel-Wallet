@@ -42,3 +42,48 @@ It helps hotels organize, track, and manage additional services offered to guest
    ```bash
    git clone https://github.com/your-username/Hotel-Wallet.git
    cd Hotel-Wallet
+# 📦 Install dependencies
+
+# 👉 Client Side
+cd "Client Side"
+npm install
+
+# 👉 Server Side
+cd "../Server Side"
+npm install
+
+
+# ⚙️ Set environment variables
+# Inside the "Server Side" folder, create a file named ".env"
+# Add the following:
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+
+
+# 🚀 Run the application
+
+# Start the backend
+cd "Server Side"
+npm run dev
+
+# Start the frontend
+cd "../Client Side"
+npm run dev
+
+
+# 📂 Project Structure
+
+Hotel-Wallet/
+│
+├── Client Side/      # 🖥️ Next.js frontend
+│   ├── pages/        # 📄 Routes
+│   ├── components/   # 🧩 Reusable UI components
+│   └── styles/       # 🎨 Bulma + custom CSS
+│
+├── Server Side/      # ⚡ Express backend
+│   ├── models/       # 🛢️ Mongoose models
+│   ├── routes/       # 🌐 API routes
+│   ├── controllers/  # 🧠 Business logic
+│   └── server.js     # 🚀 Entry point
+│
+└── README.md
