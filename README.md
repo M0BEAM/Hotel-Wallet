@@ -1,14 +1,14 @@
 # 🏨 Hotel-Wallet
 
 Hotel-Wallet is a web application platform for the **management of extra services in hotels**.  
-It helps hotels organize, track, and manage additional services offered to guests, with a modern and user-friendly interface.
+It helps hotels organize, track, and manage additional services offered to guests with a modern and user-friendly interface.
 
 ---
 
 ## 📸 Preview
 
 ![Hotel-Wallet Screenshot](./assets/preview.png)  
-*(Replace `./assets/preview.png` with the path or URL to your image)*
+*(Replace `./assets/preview.png` with your own image path or URL)*
 
 ---
 
@@ -26,8 +26,8 @@ It helps hotels organize, track, and manage additional services offered to guest
 
 ### Client Side
 - [Next.js](https://nextjs.org/) – React framework with SSR
-- [Bulma](https://bulma.io/) – CSS framework for responsive UI
-- Charts libraries (data visualization)
+- [Bulma](https://bulma.io/) – Responsive CSS framework
+- Charts libraries for data visualization
 
 ### Server Side
 - [Express.js](https://expressjs.com/) – REST API framework
@@ -38,66 +38,26 @@ It helps hotels organize, track, and manage additional services offered to guest
 
 ## ⚙️ Installation & Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/Hotel-Wallet.git
-   cd Hotel-Wallet
-
-So for your full example, in the `README.md` it would look like this:
-
-```markdown
+### 📦 Install Dependencies
 ```bash
-##############################################
-# 📦 Install dependencies
-##############################################
+# Clone the repository
+git clone https://github.com/your-username/Hotel-Wallet.git
+cd Hotel-Wallet
 
-# 👉 Client Side
+# Client Side
 cd "Client Side"
 npm install
 
-# 👉 Server Side
+# Server Side
 cd "../Server Side"
 npm install
-
-
-##############################################
-# ⚙️ Set environment variables
-##############################################
-
 # Inside the "Server Side" folder, create a file named ".env"
-# Add the following:
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
-
-
-##############################################
-# 🚀 Run the application
-##############################################
-
-# Start the backend
+# Start backend
 cd "Server Side"
 npm run dev
 
-# Start the frontend
+# Start frontend
 cd "../Client Side"
 npm run dev
-
-
-##############################################
-# 📂 Project Structure
-##############################################
-
-Hotel-Wallet/
-│
-├── Client Side/      # 🖥️ Next.js frontend
-│   ├── pages/        # 📄 Routes
-│   ├── components/   # 🧩 Reusable UI components
-│   └── styles/       # 🎨 Bulma + custom CSS
-│
-├── Server Side/      # ⚡ Express backend
-│   ├── models/       # 🛢️ Mongoose models
-│   ├── routes/       # 🌐 API routes
-│   ├── controllers/  # 🧠 Business logic
-│   └── server.js     # 🚀 Entry point
-│
-└── README.md
