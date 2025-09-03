@@ -42,7 +42,14 @@ It helps hotels organize, track, and manage additional services offered to guest
    ```bash
    git clone https://github.com/your-username/Hotel-Wallet.git
    cd Hotel-Wallet
+
+So for your full example, in the `README.md` it would look like this:
+
+```markdown
+```bash
+##############################################
 # 📦 Install dependencies
+##############################################
 
 # 👉 Client Side
 cd "Client Side"
@@ -53,14 +60,19 @@ cd "../Server Side"
 npm install
 
 
+##############################################
 # ⚙️ Set environment variables
+##############################################
+
 # Inside the "Server Side" folder, create a file named ".env"
 # Add the following:
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
 
 
+##############################################
 # 🚀 Run the application
+##############################################
 
 # Start the backend
 cd "Server Side"
@@ -71,7 +83,9 @@ cd "../Client Side"
 npm run dev
 
 
+##############################################
 # 📂 Project Structure
+##############################################
 
 Hotel-Wallet/
 │
